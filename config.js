@@ -1,6 +1,6 @@
 module.exports = {
   JOBS_DIRECTORY_PATH: process.env.JOBS_DIRECTORY_PATH || 'test/directories/jobs',
-  DONE_DIRECTORY_PATH: process.env.JOBS_DIRECTORY_PATH || 'test/directories/done',
+  DONE_DIRECTORY_PATH: process.env.DONE_DIRECTORY_PATH || 'test/directories/done',
   PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || 'robot-utlaan-archive',
   PAPERTRAIL_HOST: process.env.PAPERTRAIL_HOST || 'logs.papertrailapp.com',
   PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345,
