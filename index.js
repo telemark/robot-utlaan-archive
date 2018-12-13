@@ -1,4 +1,4 @@
-//require('dotenv').config()
+// require('dotenv').config()
 const getNextJobFromQueue = require('./lib/steps/get-next-job-from-queue')
 const archive360 = require('./lib/steps/archive-360')
 const signoff360 = require('./lib/steps/signoff-360')
